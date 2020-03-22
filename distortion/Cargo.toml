@@ -1,0 +1,11 @@
+[package]
+name = "simple_dist"
+version = "0.1.0"
+authors = ["Topi Kettunen <topi@kettunen.io>"]
+edition = "2018"
+
+[dependencies]
+vst = "0.2.0"
+
+[lib]
+crate-type = ["cdylib"]
